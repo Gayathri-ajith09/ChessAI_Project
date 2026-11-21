@@ -1,17 +1,15 @@
-# ♟️ Chess AI – Minimax Algorithm with Alpha-Beta Pruning
+# Chess AI – Minimax Algorithm with Alpha-Beta Pruning
 
 An AI-powered chess engine that uses the **Minimax Search Algorithm** and **Alpha-Beta Pruning** to evaluate possible moves, anticipate opponent strategies, and select the most promising move.
 
 ## Project Overview
 
-Chess is a two-player strategic game with an enormous number of possible moves and board configurations. Evaluating every possible sequence of moves is computationally expensive.
+This project implements an AI-powered chess engine using Minimax Search and Alpha-Beta Pruning to make strategic decisions in a two-player chess game.
 
 This project implements a chess-playing AI that uses adversarial search to analyze future board positions and make intelligent decisions. It provides an interactive way to explore how AI makes decisions in chess.
+The engine explores possible future game states, evaluates board positions using a heuristic evaluation function, and selects promising moves while accounting for the opponent's optimal responses.
 
-The engine uses:
-- **Minimax Algorithm** to simulate the decision-making process of two opposing players.
-- **Alpha-Beta Pruning** to eliminate branches that cannot influence the final decision.
-- **Board Evaluation Function** to assign scores to positions based on piece values and positional advantages.
+Alpha-Beta Pruning optimizes the search process by eliminating branches that cannot influence the final decision, improving computational efficiency without compromising the result.
 
 ## Objectives
 
@@ -116,7 +114,7 @@ Alpha-Beta Pruning can significantly reduce the number of evaluated nodes when m
 - Improve endgame decision-making.
 - Explore deeper search with improved performance.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Programming Language:** Python
 - **Algorithms:** Minimax, Alpha-Beta Pruning
