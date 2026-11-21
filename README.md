@@ -1,19 +1,19 @@
-# Chess AI – Minimax Algorithm with Alpha-Beta Pruning
+# ♟️ Chess AI – Minimax Algorithm with Alpha-Beta Pruning
 
 An AI-powered chess engine that uses the **Minimax Search Algorithm** and **Alpha-Beta Pruning** to evaluate possible moves, anticipate opponent strategies, and select the most promising move.
 
-## Project Overview
+## 📌 Project Overview
 
 Chess is a two-player strategic game with an enormous number of possible moves and board configurations. Evaluating every possible sequence of moves is computationally expensive.
 
-This project implements a chess-playing AI that uses adversarial search to analyze future board positions and make intelligent decisions.
+This project implements a chess-playing AI that uses adversarial search to analyze future board positions and make intelligent decisions.The aims to provide an efficient and interactive chess-playing experience while demonstrating the practical application of search algorithms in Artificial Intelligence.
 
 The engine uses:
 - **Minimax Algorithm** to simulate the decision-making process of two opposing players.
 - **Alpha-Beta Pruning** to eliminate branches that cannot influence the final decision.
 - **Board Evaluation Function** to assign scores to positions based on piece values and positional advantages.
 
-## Objectives
+## 🎯 Objectives
 
 - Develop an AI capable of selecting promising chess moves.
 - Implement adversarial search using the Minimax algorithm.
@@ -21,7 +21,7 @@ The engine uses:
 - Optimize search performance using Alpha-Beta Pruning.
 - Explore future game states while considering the opponent's best possible responses.
 
-## Algorithms Used
+## 🧠 Algorithms Used
 
 ### 1. Minimax Algorithm
 
@@ -62,7 +62,7 @@ When this condition is satisfied, the remaining branches are skipped because the
 - Allows deeper search within the same computational budget.
 - Produces the same result as Minimax for the same search depth and move ordering.
 
-## Board Evaluation Function
+## ⚙️ Board Evaluation Function
 
 The evaluation function assigns a numerical score to a chess position.
 
@@ -75,7 +75,7 @@ It considers factors such as:
 
 The evaluation score helps the AI compare different possible board states.
 
-## Implemented Features
+## 🚀 Implemented Features
 
 - Board-state evaluation based on chess piece weights.
 - Minimax search for determining the best move.
@@ -84,7 +84,7 @@ The evaluation score helps the AI compare different possible board states.
 - Game class supporting different player configurations.
 - Game result statistics.
 
-## Algorithm Complexity
+## 📊 Algorithm Complexity
 
 Let:
 - `b` = Average branching factor (approximately 35 moves).
@@ -100,14 +100,14 @@ Let:
 
 Alpha-Beta Pruning can significantly reduce the number of evaluated nodes when moves are ordered effectively.
 
-## Limitations
+## ⚠️ Limitations
 
 - Searching beyond depth 4 can become computationally expensive.
 - The engine has limited endgame understanding.
 - Some games may end in draws due to limitations in position evaluation.
 - Deeper searches require additional optimization.
 
-## Future Improvements
+## 🔮 Future Improvements
 
 - Implement transposition tables and position caching.
 - Improve the board evaluation heuristic.
@@ -116,14 +116,14 @@ Alpha-Beta Pruning can significantly reduce the number of evaluated nodes when m
 - Improve endgame decision-making.
 - Explore deeper search with improved performance.
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 - **Programming Language:** Python
 - **Algorithms:** Minimax, Alpha-Beta Pruning
 - **Development Environment:** Visual Studio Code
 - **Supporting Resources:** Python Chess documentation
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 ChessAI_Project/
@@ -136,7 +136,7 @@ ChessAI_Project/
 └── LICENSE               # MIT License
 ```
 
-## References
+## 📚 References
 
 1. [Creating an AI that Plays Chess – Minimax and Alpha-Beta Pruning](https://youtu.be/-ivz8yJ4l4E)
 2. [AI Chess Game Using Minimax and Alpha-Beta Pruning](https://youtu.be/W8JdJsGS2C4)
@@ -144,7 +144,7 @@ ChessAI_Project/
 4. [ChessAI – GitHub Learning Reference](https://github.com/aiatuci/ChessAI)
 5. [Python-Chess Documentation](https://python-chess.readthedocs.io/)
 
-## Project Team
+## 👥 Project Team
 
 | Team Member | Roll Number |
 |---|---|
